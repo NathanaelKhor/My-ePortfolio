@@ -6,6 +6,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <script defer src="app.js"></script>
 
 </head>
 <body>
@@ -36,7 +37,7 @@
             </div>
         </div>
     </nav>
-    <section id="profile">
+    <section id="profile" class="hidden">
         <div class="section__pic-container">
             <img src="./assets/profile-pic.png" alt="Nathanael Khor profile picture">
         </div>
@@ -54,7 +55,7 @@
             </div>
         </div>
     </section>
-    <section id="about">
+    <section id="about" class="hidden">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
@@ -86,7 +87,7 @@
         </div>
         <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'">
     </section>
-    <section id="experience">
+    <section id="experience" class="hidden">
         <p class="section__text__p1">Explore My</p>
         <h1 class="title">Experience</h1>
         <div class="experience-details-container">
@@ -161,12 +162,12 @@
         </div>
         <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'">
     </section>
-    <section id="projects">
+    <section id="projects" class="hidden">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
         <div class="experience-details-container">
             <div class="about-containers">
-                <div class="details-container color-container">
+                <div class="details-container color-container project-container">
                     <div class="article-container">
                         <img src="./assets/delivery-system.png" alt="Delivery Driver Database System" class="project-img">
                     </div>
@@ -181,7 +182,7 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NathanaelKhor/Delivery-System.git'">Github</button>
                     </div>
                 </div>
-                <div class="details-container color-container">
+                <div class="details-container color-container project-container">
                     <div class="article-container">
                         <img src="./assets/football.png" alt="Project 2" class="project-img">
                     </div>
@@ -196,14 +197,14 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NathanaelKhor/Football-Ladder.git'">Github</button>
                     </div>
                 </div>
-                <div class="details-container color-container">
+                <div class="details-container color-container project-container">
                     <div class="article-container">
                         <img src="./assets/profile-pic.png" alt="Project 3" class="project-img">
                     </div>
                     <h2 class="experience-sub-title project-title">E-Portfolio</h2>
                     <div class="description-container text-container">
                         <p>
-                            A single page web app that displays my information including links to various github projeects as well as social and contact information.
+                            A single page web app that displays my information including links to various github projects as well as social and contact information.
                         </p>
                     </div>
                     <div class="btn-container">
@@ -215,7 +216,7 @@
         </div>
         <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#contact'">
     </section>
-    <section id="contact">
+    <section id="contact" class="hidden">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
