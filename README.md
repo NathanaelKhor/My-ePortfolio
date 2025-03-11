@@ -1,5 +1,7 @@
 # My ePortfolio
 
+Live Link -> https://nathanaelkhor.netlify.app
+
 A responsive personal portfolio website showcasing my skills, experience, projects, and contact information.
 
 ![Portfolio Screenshot](./assets/portfolio.png)
